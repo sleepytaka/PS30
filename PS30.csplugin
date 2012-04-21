@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<RoleModule namespace="PS30" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+	<Startup>
+		<Task commandLine="PS30.exe" executionContext="elevated" taskType="simple" />
+	</Startup>
+	<ConfigurationSettings>
+		<Setting name="DownloadUrl" />
+		<!--
+		Windows6.1-KB2506143-x64.msu (OS Family2)
+		http://download.microsoft.com/download/5/2/B/52B59966-3009-4F39-A99E-3732717BBE2A/Windows6.1-KB2506143-x64.msu
+		-->
+	</ConfigurationSettings>
+	<Certificates>
+	</Certificates>
+</RoleModule>
